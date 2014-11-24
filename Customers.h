@@ -1,18 +1,13 @@
 #ifndef CUSTOMERS_H
 #define CUSTOMERS_H
 
-#include <fstream>
-#include <iostream>
-
-using namespace std;
-
 #include "Customer.h"
 
-class Customers {
+class Customer {
 
 public:
-	Customers();
-    void setData(ifstream&);
+	Customer();
+
 private:
 	//
 };

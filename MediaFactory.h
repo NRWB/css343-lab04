@@ -6,7 +6,7 @@
 class MediaFactory {
 
 public:
-    MediaFactory();
+
 private:
 	
 };	

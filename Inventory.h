@@ -6,6 +6,14 @@ class Inventory {
 public:
 	Inventory();
 
+	// add
+
+	// remove
+
+	// sort
+
+	// 
+
 private:
 	//
 };
