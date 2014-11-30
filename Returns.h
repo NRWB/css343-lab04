@@ -1,19 +1,19 @@
 #ifndef RETURNS_H
 #define RETURNS_H
 
-#include "Media.h"
-#include "Customer.h"
-using namespace std;
+#include "Command.h"
 
-// make static so
-// only 1 borrow object
-// used in the whole program
-
-class Returns {
+/**
+ * Class Name: Returns, singular.
+ */
+class Returns : Command {
 
 public:
 	Returns();
-	bool performAction(Customer&, Media&);
+    ~Returns();
+    void setName(const string&);
+    string& getName() const;
+
 private:
 	//
 };

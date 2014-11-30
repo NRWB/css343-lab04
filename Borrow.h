@@ -1,21 +1,18 @@
 #ifndef BORROW_H
 #define BORROW_H
 
-#include "Media.h"
-#include "Customer.h"
-using namespace std;
+#include "Command.h"
 
-// make static so
-// only 1 borrow object
-// used in the whole program
-
-class Borrow {
+class Borrow : Command {
 
 public:
 	Borrow();
-	bool performAction(Customer&, Media&);
+    ~Borrow();
+    void setName(const string&);
+    string& getName() const;
+
 private:
-	// 
+	//
 };
 
 #endif

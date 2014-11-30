@@ -3,13 +3,18 @@
 
 #include "Customer.h"
 
-class Customer {
+#include <fstream>
+#include <iostream>
+#include <map>
+using namespace std;
+
+class Customers {
 
 public:
-	Customer();
-
+	Customers();
+    void setData(ifstream&);
 private:
-	//
+    map<Customer> clientele;
 };
 
 #endif

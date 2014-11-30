@@ -1,19 +1,15 @@
 #ifndef INVENTORY_H
 #define INVENTORY_H
 
-class Inventory {
+#include "Command.h"
+
+class Inventory : Command {
 
 public:
 	Inventory();
-
-	// add
-
-	// remove
-
-	// sort
-
-	// 
-
+    ~Inventory();
+    void setName(const string&);
+    string& getName() const;
 private:
 	//
 };
